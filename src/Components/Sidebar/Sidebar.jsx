@@ -46,7 +46,7 @@ const Sidebar = ({ children }) => {
     },
   ];
   return (
-    <div className="">
+    <div className="flex">
       <div style={{ width: isOpen ? "200px" : "50px" }} className="sidebar">
         <div className="top_section">
           <h1 className="logo" style={{ display: isOpen ? "block" : "none" }}>
@@ -75,6 +75,7 @@ const Sidebar = ({ children }) => {
           </NavLink>
         ))}
       </div>
+      <main>{children}</main>
     </div>
   );
 };
