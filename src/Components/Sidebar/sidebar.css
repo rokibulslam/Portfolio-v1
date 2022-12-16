@@ -5,6 +5,8 @@
     transition: all 0.5s;
     height: 100vh;
     width: 200px;
+    border-right: 3px solid #0AF597;
+    
 }
 .top_section{
     display: flex;
@@ -22,13 +24,15 @@
     transition: all 0.5s;
 }
 .link:hover{
-    background:lightskyblue;
+    background:#0AF597;
     color: #000;
-    transition: all 0.5s;
+    transition: all 0.8s;
+    border-radius: 5px 30px 5px 30px;
 }
 .active{
-    background: lightskyblue;
+    background: #0AF597;
     color: #000;
+    border-radius: 5px 30px 5px 30px;
 }
 .icon, .link_text{
     font-size: 20px;
