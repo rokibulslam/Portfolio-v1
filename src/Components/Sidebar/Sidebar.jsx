@@ -45,6 +45,11 @@ const Sidebar = ({ children }) => {
       name: "Product List",
       icon: <FaThList />,
     },
+    {
+      path: "/dashboard",
+      name: "Dashboard",
+      icon: <FaThList />,
+    },
   ];
   return (
     <div className="flex">
