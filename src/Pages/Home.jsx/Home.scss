@@ -10,15 +10,41 @@
   background-position: center;
   color: rgb(10, 245, 151);
   height: 100vh;
-    
-    .rainbow {
-        border: 5px solid rgb(248, 246, 247);
-        border-radius: 100%;
+
+  .rainbow {
+    border: 5px solid rgb(248, 246, 247);
+    border-radius: 100%;
 
     .home-img {
       max-height: 300px;
     }
-    }
+  }
+  .home-button {
+    background-color: black;
+    color: white;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    &:hover {
+    background-color: rgb(0, 235, 137);
+    color: #003b38;
+  }
+  }
+  
+  .home-icon {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    border: 1px solid wheat;
+    margin-left: 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 7px;
+    &:hover {
+    background-color: rgb(0, 235, 137);
+    color: #003b38;
+  }
 }
-
-
+  
+}
