@@ -1,0 +1,24 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #003b38;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: rgb(10, 245, 151);
+  height: 100vh;
+    
+    .rainbow {
+        border: 5px solid rgb(248, 246, 247);
+        border-radius: 100%;
+
+    .home-img {
+      max-height: 300px;
+    }
+    }
+}
+
+

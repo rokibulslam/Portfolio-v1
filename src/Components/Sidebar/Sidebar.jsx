@@ -8,11 +8,12 @@ import {
   FaShoppingBag,
   FaThList,
 } from "react-icons/fa";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, Outlet } from "react-router-dom";
 import "./sidebar.css";
 const Sidebar = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
+  const open = '200px'
   const menuItem = [
     {
       path: "/",
@@ -75,7 +76,9 @@ const Sidebar = ({ children }) => {
           </NavLink>
         ))}
       </div>
-      <main>{children}</main>
+      <main style={{ width:'100vw'}}>
+        {children}
+      </main>
     </div>
   );
 };
